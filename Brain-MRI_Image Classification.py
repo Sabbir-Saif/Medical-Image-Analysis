@@ -26,6 +26,8 @@ import pandas as pd
 
 from tensorflow.keras.layers import MaxPool2D
 
+''' Dataset is collected from Kaggle named brain-tumor-mri-dataset '''
+
 path='D:\\AIP\\NLP\\archive (6).zip'
 label_map = {
     "Training/glioma": 0,
