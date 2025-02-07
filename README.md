@@ -1,7 +1,7 @@
 # Medical Image Classification for Brain Tumor Detection
 This project focuses on deep learning-based medical image classification, specifically for detecting and classifying brain tumors using MRI scans. The goal is to develop an automated, efficient, and accurate system that can assist radiologists and medical professionals in diagnosing different types of brain tumors.
 
-# The project leverages transfer learning with three well-known deep learning architectures—InceptionV3, VGG16, and ResNet50.
+The project leverages transfer learning with three well-known deep learning architectures—InceptionV3, VGG16, and ResNet50.
 to classify MRI images into four categories:
 
 1. Glioma
