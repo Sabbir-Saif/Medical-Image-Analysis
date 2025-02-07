@@ -9,26 +9,20 @@ to classify MRI images into four categories:
 3. Pituitary Tumor
 4. No Tumor
 
-# Data Preparation & Preprocessing
+# Methodology
 
-Extract images from a compressed dataset.
-Resize all images to a consistent shape (128×128 pixels).
-Convert images to RGB format and store them as NumPy arrays.
-Split the dataset into training, validation, and test sets.
-Normalize image pixel values using the appropriate preprocessing function.
-Model Selection & Training
+i.   Extract images from a compressed dataset.
+ii.  Resize all images to a consistent shape (128×128 pixels).
+iii. Convert images to RGB format and store them as NumPy arrays.
+iv.  Split the dataset into training, validation, and test sets.
+v.   Normalize image pixel values using the appropriate preprocessing function.
 
-Implement three pre-trained models (InceptionV3, VGG16, ResNet50) using transfer learning.
-Freeze initial layers and add custom fully connected layers for classification.
-Train each model on the dataset with categorical cross-entropy loss and Adam optimizer.
-Evaluate models on a test dataset.
-Performance Evaluation
+vi.  Implement three pre-trained models (InceptionV3, VGG16, ResNet50) using transfer learning. Freeze initial layers and add custom fully connected layers for classification.
+vii. Train each model on the dataset with categorical cross-entropy loss and Adam optimizer.Evaluate models on a test dataset and evaluate performances
+viii.Generate classification reports with precision, recall, and F1-score and plot confusion matrices to visualize misclassifications.
 
-Compute accuracy and loss for all models.
-Generate classification reports with precision, recall, and F1-score.
-Plot confusion matrices to visualize misclassifications.
-Compare model performance to identify the best-performing architecture.
-Significance of the Project
+# Significance of the Project
+
 Medical Impact: Helps automate brain tumor detection, reducing diagnostic time and improving accuracy.
 Deep Learning Application: Demonstrates the power of CNN-based transfer learning in medical imaging.
 Comparative Analysis: Evaluates the performance of different state-of-the-art architectures in MRI classification.
